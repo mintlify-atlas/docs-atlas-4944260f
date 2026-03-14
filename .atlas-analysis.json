@@ -1,0 +1,185 @@
+{
+  "projectType": "framework",
+  "projectName": "Mercur",
+  "projectDescription": "Open-source multi-vendor marketplace platform built on MedusaJS for B2B and B2C commerce.",
+  "theme": "palm",
+  "primaryColor": "#4e28d6",
+  "lightColor": "#a48cdc",
+  "darkColor": "#e9e4f2",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation",
+              "prerequisites"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "core-concepts/architecture",
+              "core-concepts/marketplace-model",
+              "core-concepts/vendors",
+              "core-concepts/multi-vendor-orders",
+              "core-concepts/commissions"
+            ]
+          },
+          {
+            "group": "Modules",
+            "pages": [
+              "modules/overview",
+              "modules/b2c-core",
+              "modules/commission",
+              "modules/reviews",
+              "modules/requests",
+              "modules/algolia",
+              "modules/resend",
+              "modules/stripe-connect"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/overview",
+              "integrations/stripe",
+              "integrations/resend",
+              "integrations/algolia",
+              "integrations/talkjs"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment-variables",
+              "configuration/medusa-config",
+              "configuration/admin-panel",
+              "configuration/vendor-panel"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Development",
+        "groups": [
+          {
+            "group": "Building Storefronts",
+            "pages": [
+              "development/storefront-overview",
+              "development/storefront-setup",
+              "development/storefront-customization"
+            ]
+          },
+          {
+            "group": "Extending Mercur",
+            "pages": [
+              "development/creating-modules",
+              "development/workflows",
+              "development/subscribers",
+              "development/custom-api-routes"
+            ]
+          },
+          {
+            "group": "Admin & Vendor Panels",
+            "pages": [
+              "development/admin-customization",
+              "development/vendor-customization",
+              "development/admin-widgets"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Deployment",
+        "groups": [
+          {
+            "group": "Production Setup",
+            "pages": [
+              "deployment/overview",
+              "deployment/database-setup",
+              "deployment/environment-configuration",
+              "deployment/best-practices"
+            ]
+          },
+          {
+            "group": "Hosting",
+            "pages": [
+              "deployment/hosting-backend",
+              "deployment/hosting-frontend",
+              "deployment/docker"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api-reference/introduction",
+              "api-reference/authentication"
+            ]
+          },
+          {
+            "group": "Admin APIs",
+            "pages": [
+              "api-reference/admin/sellers",
+              "api-reference/admin/commissions",
+              "api-reference/admin/payouts",
+              "api-reference/admin/attributes",
+              "api-reference/admin/marketplace-config"
+            ]
+          },
+          {
+            "group": "Vendor APIs",
+            "pages": [
+              "api-reference/vendor/products",
+              "api-reference/vendor/orders",
+              "api-reference/vendor/profile"
+            ]
+          },
+          {
+            "group": "Store APIs",
+            "pages": [
+              "api-reference/store/products",
+              "api-reference/store/sellers",
+              "api-reference/store/reviews",
+              "api-reference/store/wishlist"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Multi-vendor marketplace support",
+    "Flexible commission system",
+    "Admin, vendor, and storefront panels",
+    "Built on MedusaJS v2",
+    "Modular plugin architecture",
+    "Stripe Connect integration",
+    "Product reviews and ratings",
+    "Algolia search integration",
+    "Split order payments",
+    "Customizable workflows"
+  ],
+  "publicApiSurface": [
+    "@mercurjs/framework",
+    "@mercurjs/b2c-core",
+    "@mercurjs/commission",
+    "@mercurjs/reviews",
+    "@mercurjs/algolia",
+    "@mercurjs/resend",
+    "@mercurjs/requests",
+    "@mercurjs/stripe-tax-provider",
+    "@mercurjs/payment-stripe-connect",
+    "mercur-cli install",
+    "mercur-cli dev"
+  ]
+}
